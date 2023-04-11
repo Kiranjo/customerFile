@@ -1,16 +1,27 @@
 {
   "name": "customer",
   "version": "1.0.0",
-  "description": "",
   "main": "customerFileServer.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start" :  "node carApi.js"
+    "start": "node customerFileServer.js"
   },
-  "keywords": [ "node", "build"],
+  "keywords": [
+    "node",
+    "build"
+  ],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "express": "^4.18.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kiranjo/customerFile.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Kiranjo/customerFile/issues"
+  },
+  "homepage": "https://github.com/Kiranjo/customerFile#readme",
+  "description": ""
 }
